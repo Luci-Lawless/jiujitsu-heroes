@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR|Oswald|Playfair+Display|Yesteryear');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  color: #2E2E2E;
+  font-family: 'Playfair Display', serif;
+}
+
+.bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5, .bgimg6 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.bgimg1 {
+  background-image: url("https://res.cloudinary.com/di7m4tijz/image/upload/v1538383089/helioandcarlos_jus4sn.jpg");
+  min-height: 100%;
+}
+
+.bgimg2 {
+  background-image: url("https://res.cloudinary.com/di7m4tijz/image/upload/v1538383094/white_uzp8wg.jpg");
+  min-height: 100%;
+}
+
+.bgimg3 {
+  background-image: url("https://res.cloudinary.com/di7m4tijz/image/upload/v1538383093/middlestripes_rnsrs8.jpg");
+  min-height: 100%;
+}
+
+.bgimg4 {
+  background-image: url("https://res.cloudinary.com/di7m4tijz/image/upload/v1538383085/black_i2i2q4.jpg");
+  min-height: 100%;
+}
+
+.bgimg5 {
+  background-image: url("https://res.cloudinary.com/di7m4tijz/image/upload/v1538383088/gi_f6ozlf.jpg");
+  min-height: 100%;
+}
+
+.bgimg6 {
+  background-image: url("https://res.cloudinary.com/di7m4tijz/image/upload/v1538383092/blackwood_knfqhp.jpg");
+  min-height: 100%;
+}
+
+/*.bgimg7 {
+  background-image: url("./img/gi.jpg");
+  min-height: 100%;
+}*/
+
+/*.bgimg8 {
+  background-image: url("./img/gi.jpg");
+  min-height: 100%;
+}*/
+
+/*.bgimg9 {
+  background-image: url("./img/gi.jpg");
+  min-height: 100%;
+}*/
+
+/*.bgimg10 {
+  background-image: url("./img/gi.jpg");
+  min-height: 100%;
+}*/
+
+.caption {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption h2 {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 25px;
+  letter-spacing: 2px;
+  font-family: 'Yesteryear', cursive;
+  font-size: 80px;
+  border-radius: 2px;
+  border-color: transparent;
+}
+
+.titles h2{
+  color: #2E2E2E;
+  font-family:'Yesteryear', cursive;
+  font-size: 60px;
+}
+
+.title-light h2{
+  color: #fff;
+  font-family:'Yesteryear', cursive;
+  font-size: 50px;
+}
+
+.banner-quote-white {
+  margin-top: 20px;
+  padding: 25px;
+  color:#777;
+  background-color:#fff;
+  text-align:center;
+  font-size:30px;
+}
+
+article {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  float: right;
+  padding: 15px;
+  text-align: justify;
+  color: #fff;
+  font-size: 20px;
+  width: 40%;
+}
+
+.box {
+  box-shadow: 5px 5px 28px gray;
+  background-color: #fff;
+  color: #2E2E2E;
+  width: 50%;
+  margin-right: 30px;
+  margin-top: 0px;
+}
+
+hr {
+  width: 50%;
+  margin-left: 0;
+}
+
+.armlock-img {
+  box-shadow: 1px 1px 1px #fff;
+  margin: 30px;
+  margin-left: 30px;
+  width: 30%;
+  float: left;
+  position: relative;
+  border-radius: 20px;
+}
+
+q {
+  quotes: "\00ab" "\00bb" "\2039" "\203A";
+}
+
+.drawing img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
