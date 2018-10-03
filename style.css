@@ -122,7 +122,7 @@ article {
 }
 
 .box {
-  box-shadow: 5px 5px 28px gray;
+  box-shadow: 5px 5px 25px gray;
   background-color: #fff;
   color: #2E2E2E;
   width: 50%;
@@ -195,7 +195,7 @@ q {
   font-size: 17px;
   padding: 10px;
   background: rgba(0, 0, 0, 0.8);
-  margin: 20px 0 0 0
+  margin: 10px 0 60px 0
 }
 .view p {
   font-family: Georgia, serif;
