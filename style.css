@@ -7,7 +7,7 @@ body, html {
   font-family: 'Playfair Display', serif;
 }
 
-.bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5, .bgimg6 {
+.bgimg1, .bgimg2, .bgimg3, .bgimg4, .bgimg5 {
   position: relative;
   background-attachment: fixed;
   background-position: center;
@@ -40,31 +40,6 @@ body, html {
   background-image: url("https://res.cloudinary.com/di7m4tijz/image/upload/v1538383088/gi_f6ozlf.jpg");
   min-height: 100%;
 }
-
-.bgimg6 {
-  background-image: url("https://res.cloudinary.com/di7m4tijz/image/upload/v1538383092/blackwood_knfqhp.jpg");
-  min-height: 100%;
-}
-
-/*.bgimg7 {
-  background-image: url("./img/gi.jpg");
-  min-height: 100%;
-}*/
-
-/*.bgimg8 {
-  background-image: url("./img/gi.jpg");
-  min-height: 100%;
-}*/
-
-/*.bgimg9 {
-  background-image: url("./img/gi.jpg");
-  min-height: 100%;
-}*/
-
-/*.bgimg10 {
-  background-image: url("./img/gi.jpg");
-  min-height: 100%;
-}*/
 
 .caption {
   position: absolute;
@@ -136,15 +111,18 @@ hr {
 }
 
 .armlock-img {
-  box-shadow: 1px 1px 1px #fff;
+  box-shadow: 5px 5px 28px gray;
   margin: 30px;
   margin-left: 30px;
-  width: 30%;
-  float: left;
+  width: 50%;
+  float: right;
   position: relative;
-  border-radius: 20px;
 }
 
+.belt-tie img {
+  width: 100%;
+  opacity: 0.8;
+}
 q {
   quotes: "\00ab" "\00bb" "\2039" "\203A";
 }
