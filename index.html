@@ -9,13 +9,23 @@
     <script src="script.js" type="text/javascript"></script>
   </head>
   <body>
-    <div class="bgimg1">
-    <div class="caption">
-      <h2>Jiu Jitsu Heroes</h2>
-    </div>
+    <div class="bgimg1" id="home">
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#home">Home</a>
+          <a href="#origin">The Origin of Jiu-Jitsu</a>
+          <a href="#gallery">Heroes Gallery</a>
+          <a href="#definitions">Jiu-Jitsu X Brazilian Jiu-Jitsu</a>
+        </div>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+      <div class="caption">
+        <h2>Jiu Jitsu Heroes</h2>
+      </div>
   </div>
 
-  <div class="banner-quote-white">
+  <div class="banner-quote-white" id="origin">
       <h1>The Origin of Ju Jutsu / Jiu Jitsu</h1>
       <p><q>As to the origin and native land of Ju Jutsu, there are several opinions, but they are found to be mere assumptions based on narratives relating to the founding of certain schools, or some incidental records or illustrations found in the ancient manuscripts not only in Japan but in China, Persia, Germany, and Egypt. There is no record by which the origins of Ju Jutsu can be definitely established. It would, however, be rational to assume that ever since the creation, with the instinct of self-preservation, man has had to fight for existence, and was inspired to develop an art or skill to implement the body mechanism for this purpose. In such efforts, the development may have taken various courses according to the condition of life or tribal circumstance, but the object and mechanics of the body being common, the results could not have been so very different from each other. No doubt this is the reason for finding records relating to the practice of arts similar to Ju Jutsu in various parts of the world, and also for the lack of records of its origins.</q>
       -Sensei G. Koizumi, Kodokan 7th Dan</p>
@@ -26,8 +36,9 @@
         <p><q>There is no losing in jiu jitsu. You either win or you learn.</q> <br /> Grand Master Carlos Gracie Sr.</p>
       </div>
     </div>
+
     <!--Image Gallery-->
-    <div class="bgimg2">
+    <div class="bgimg2" id="gallery">
 
       <div class="container">
         <div class="titles" style="text-align:center; margin-top: 30px;">
@@ -83,7 +94,7 @@
       </div>
     </div>
 
-  <div class="bgimg3">
+  <div class="bgimg3" id="definitions">
     <div class="title-light" style="float:left; margin-top: 30px;margin-left: 30px;">
       <h2>Definitions</h2>
     </div>
@@ -189,7 +200,7 @@
   <div class="belt-tie">
     <img src="https://res.cloudinary.com/di7m4tijz/image/upload/v1538383106/belttie_zpctqm.gif" />
   </div>
-  <div class="banner-quote-white">
+  <div class="banner-quote-dark">
     <p><q>Jiu Jitsu is for the protection of the individual, the older man,  the weak, the child, the lady and the young woman from being dominanted and hurt by some bum because they don’t have the physical attributes to defend themselves. Like i never had.</q></p>
     -Helio Gracie
   </div>
