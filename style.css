@@ -118,12 +118,19 @@ hr {
   width: 50%;
   margin-left: 0;
 }
+#jjj:hover {
+  cursor: pointer;
+}
+
+#bjj:hover {
+  cursor: pointer;
+}
 
 .armlock-img {
   box-shadow: 5px 5px 28px gray;
   margin: 30px;
   margin-left: 30px;
-  width: 50%;
+  width: 60%;
   float: right;
   position: relative;
 }
@@ -231,7 +238,7 @@ q {
   -o-transform: rotate(-10deg);
   -ms-transform: rotate(-10deg);
   transform: rotate(-10deg);
-}  
+}
 
 /*Image Gallery*/
 
