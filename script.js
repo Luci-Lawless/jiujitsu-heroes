@@ -24,3 +24,15 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// Toggle definitions
+$(document).ready(function(){
+    $("#jjjp").hide();
+    $("#bjjp").hide();
+    $("#jjj").click(function(){
+        $("#jjjp").slideToggle("slow");
+    });
+    $("#bjj").click(function(){
+        $("#bjjp").slideToggle("slow");
+    });
+});

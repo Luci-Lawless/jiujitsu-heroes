@@ -180,9 +180,11 @@ q {
 
 .overlay .closebtn {
     position: absolute;
-    top: 20px;
+    top: 80px;
     right: 45px;
     font-size: 60px;
+    color: red;
+    z-index: 1;
 }
 
 @media screen and (max-height: 450px) {
@@ -209,7 +211,6 @@ q {
   color: white;
   cursor: pointer;
   padding: 15px;
-  border-radius: 4px;
 }
 
 #myBtn:hover {
